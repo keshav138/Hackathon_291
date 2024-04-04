@@ -1,0 +1,249 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.banner{
+  display:box;
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75%)),url(2_1.jpg);
+  background-size:cover;
+  background-position: center;
+}
+
+
+
+.logo{
+  width:300px;
+  margin-left:608px;
+  margin-top:20px;
+  background-position:center;
+  cursor:pointer;
+}
+
+.content{
+  display:flex;
+  margin-left: 250px;
+  flex-direction: column;;
+  width:1000px;
+  position:absolute;
+  top:50%;
+  margin: top 100px;
+  transform: translateY(-50%);
+  text-align:justify;
+  color:#fff;
+}
+
+@font-face {
+  font-family: 'marsh'; /*a name to be used later*/
+  src: url('Cathylise\ Janetson.otf'); /*URL to font*/
+}
+
+.content h1{
+  font-size:100px;
+  font-family: 'marsh';
+  width:1000px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content p{
+  font-size:15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* mffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff */
+
+.appointment{
+  margin:30px 0;
+
+}
+
+
+.appointment h2{
+  font-family: 'marsh';
+  font-size: 60px;
+  color:#291601;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+section {
+  padding: 20px;
+}
+
+#appointment-form {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  height:auto;
+  background-color: #372101;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  background-image: url('4_1.jpg');
+  background-size:cover;
+}
+
+.filler{
+  width:100%;
+  height:auto;
+  background-color: red;
+  justify-content: flex-end;
+}
+
+
+
+.form{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  color:#fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+textarea {
+  background-color:rgba(60, 27, 0, 0.082);
+  display:flex;
+  justify-content: center;
+  width: 1200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:rgba(255, 255, 255, 0.789);
+}
+
+input[type="text"], select {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select{
+  background-color:rgba(60, 27, 0, 0.082);
+  color : rgb(255, 255, 255);
+}
+
+.select-items{
+  background-color:rgba(60, 27, 0, 0.082);
+
+}
+
+input[type="submit"] {
+  width:1200px;
+  background-color: #1d1705fb;
+  color: white;
+  padding: 15px;
+  margin-bottom:15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #231600;
+}
+
+input[type='checkbox']{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.form{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.5rem;
+}
+
+.name{
+  flex: 1 0 10rem;
+  width:100%;
+  height:100%;
+}
+.email{
+  flex : 1 0 10rem;
+}
+.button{
+  background-color: #002308;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:100%;
+  height:100%;
+}
+section{
+  display:block;
+  justify-content: center;
+
+  width:90%;
+  margin: 20px auto;
+  background-color:#232b2b;
+  border-radius:5px;
+}
+
+section h2{
+  font-size: 50px;
+  color:white;
+  text-align: center;
+}
+section h1{
+  text-align:center;
+  font-size: 70px;
+  color:white;
+  margin-bottom:10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+#appointment-form2 {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  height:auto;
+  background-color: #372101;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  background-image: url('3_1.jpg');
+  background-size:cover;
+}
+
+.ss{
+  display:flex;
+  flex-direction: row;
+}
+.ss label{
+  margin:30px;
+  /* margin-top:10px;   */
+}
